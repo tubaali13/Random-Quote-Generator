@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+  margin: 0;
+  font-family: "New Courier";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 500px;
+    padding: 30px 20px;
+    display: table;
+    background-color: #fff;
+}
+
